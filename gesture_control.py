@@ -14,10 +14,10 @@ cap = cv2.VideoCapture(0)
 def count_fingers(hand_landmarks):
     tips = [8, 12, 16, 20]
     count = 0
-    # Thumb
+
     if hand_landmarks.landmark[4].x < hand_landmarks.landmark[3].x:
         count += 1
-    # Other fingers
+        
     for tip in tips:
         if hand_landmarks.landmark[tip].y < hand_landmarks.landmark[tip - 2].y:
             count += 1
