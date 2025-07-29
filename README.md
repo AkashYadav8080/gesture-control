@@ -1,4 +1,4 @@
-# 🤖 Hand Gesture Controlled Keyboard Input
+# 🤖 Hand Gesture Controlled Keyboard Input Using Python
 
 ![Python](https://img.shields.io/badge/python-v3.7+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/opencv-4.5+-green.svg)
