@@ -109,32 +109,6 @@ GESTURE_MAP = {
 }
 ```
 
-### Advanced Configuration
-
-Create a `config.json` file for advanced settings:
-
-```json
-{
-    "camera": {
-        "device_id": 0,
-        "width": 640,
-        "height": 480,
-        "fps": 30
-    },
-    "detection": {
-        "confidence_threshold": 0.7,
-        "max_hands": 1,
-        "tracking_confidence": 0.5
-    },
-    "gestures": {
-        "debounce_time": 0.3,
-        "hold_threshold": 1.0
-    }
-}
-```
-
----
-
 ## 🎮 Usage Examples
 
 ### Gaming Control
@@ -221,7 +195,7 @@ python -m pytest tests/
 
 Test gesture detection manually:
 ```bash
-python test_gestures.py
+python gesture_control.py
 ```
 
 ---
@@ -260,7 +234,7 @@ mypy gesture_control.py
 |--------|-------|
 | Detection Latency | ~50ms |
 | CPU Usage | 15-25% |
-| Memory Usage | ~100MB |
+| Memory Usage | ~100KB |
 | Accuracy | 95%+ in good lighting |
 
 ---
@@ -319,10 +293,10 @@ copies or substantial portions of the Software.
 
 ## 📈 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/hand-gesture-control.svg)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/hand-gesture-control.svg)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/hand-gesture-control.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/hand-gesture-control.svg)
+![GitHub stars](https://img.shields.io/github/stars/qdeskdev/gesture-control.svg)
+![GitHub forks](https://img.shields.io/github/forks/qdeskdev/gesture-control.svg)
+![GitHub issues](https://img.shields.io/github/issues/qdeskdev/gesture-control.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/qdeskdev/gesture-control.svg)
 
 ---
 
