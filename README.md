@@ -7,8 +7,6 @@
 
 A real-time hand gesture recognition system that detects finger count using computer vision and maps gestures to keyboard actions. Control games, applications, or presentations hands-free with intuitive finger gestures.
 
-![Demo GIF Placeholder](https://via.placeholder.com/600x300/2196F3/FFFFFF?text=Hand+Gesture+Demo)
-
 ---
 
 ## 🌟 Features
@@ -34,8 +32,8 @@ A real-time hand gesture recognition system that detects finger count using comp
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hand-gesture-control.git
-   cd hand-gesture-control
+   git clone https://github.com/yourusername/gesture-control.git
+   cd gesture-control
    ```
 
 2. **Install dependencies**
@@ -89,18 +87,6 @@ A real-time hand gesture recognition system that detects finger count using comp
 hand-gesture-control/
 │
 ├── gesture_control.py      # Main application logic
-├── requirements.txt        # Python dependencies
-├── config.py              # Configuration settings
-├── utils/
-│   ├── hand_detector.py   # Hand detection utilities
-│   └── gesture_mapper.py  # Gesture-to-key mapping
-├── examples/
-│   ├── game_control.py    # Gaming-specific controls
-│   └── media_control.py   # Media player controls
-├── tests/
-│   └── test_detection.py  # Unit tests
-├── docs/
-│   └── API.md            # API documentation
 └── README.md             # This file
 ```
 
@@ -283,9 +269,6 @@ mypy gesture_control.py
 
 - [ ] **v2.0**: Multi-hand gesture support
 - [ ] **v2.1**: Custom gesture training
-- [ ] **v2.2**: Voice command integration
-- [ ] **v2.3**: Mobile app companion
-- [ ] **v3.0**: Machine learning gesture prediction
 
 ---
 
@@ -324,8 +307,6 @@ copies or substantial portions of the Software.
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/hand-gesture-control/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/hand-gesture-control/discussions)
-- **Email**: support@handgesturecontrol.com
-
 ---
 
 ## 🌟 Acknowledgments
