@@ -278,6 +278,7 @@ mypy gesture_control.py
 
 ---
 
+
 <div align="center">
   <strong>⭐ Star this repository if you found it helpful!</strong>
 </div>
