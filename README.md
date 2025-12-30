@@ -246,15 +246,6 @@ mypy gesture_control.py
 
 ---
 
-## 📚 Documentation
-
-- [API Documentation](docs/API.md)
-- [Configuration Guide](docs/configuration.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
-- [Contributing Guidelines](docs/contributing.md)
-  
----
-
 ## 🙋‍♂️ Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/hand-gesture-control/issues)
