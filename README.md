@@ -266,7 +266,6 @@ mypy gesture_control.py
 ![GitHub forks](https://img.shields.io/github/forks/qdeskdev/gesture-control.svg)
 ![GitHub issues](https://img.shields.io/github/issues/qdeskdev/gesture-control.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/qdeskdev/gesture-control.svg)
-
 ---
 
 <div align="center">
